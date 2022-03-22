@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-composition-main.flake = false;
+  inputs.src-composition-main.ref   = "refs/heads/main";
   inputs.src-composition-main.owner = "DavidMeagher1";
-  inputs.src-composition-main.ref   = "main";
   inputs.src-composition-main.repo  = "composition";
   inputs.src-composition-main.type  = "github";
   
