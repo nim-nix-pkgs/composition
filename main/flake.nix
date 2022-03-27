@@ -11,6 +11,7 @@
   inputs.src-composition-main.ref   = "refs/heads/main";
   inputs.src-composition-main.owner = "DavidMeagher1";
   inputs.src-composition-main.repo  = "composition";
+  inputs.src-composition-main.dir   = "";
   inputs.src-composition-main.type  = "github";
   
   inputs."macrosex".owner = "nim-nix-pkgs";
